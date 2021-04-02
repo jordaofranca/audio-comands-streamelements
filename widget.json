@@ -1,0 +1,614 @@
+{
+  "command-1": {
+    "type": "text-input",
+    "label": "Command 1",
+    "group": "Command 1"
+  },
+  "onlyMod-1": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 1"
+  },
+  "onlySub-1": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 1"
+  },
+  "onlyVip-1": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 1"
+  },
+  "sound-1": {
+    "type": "sound-input",
+    "label": "Sound1",
+    "group": "Command 1"
+  },
+  "volume1": {
+    "type": "slider",
+    "label": "Audios Volume 1",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 1"
+  },
+  "command-2": {
+    "type": "text-input",
+    "label": "Command 2",
+    "group": "Command 2"
+  },
+  "onlyMod-2": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 2"
+  },
+  "onlySub-2": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 2"
+  },
+  "onlyVip-2": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 2"
+  },
+  "sound-2": {
+    "type": "sound-input",
+    "label": "Sound2",
+    "group": "Command 2"
+  },
+  "volume2": {
+    "type": "slider",
+    "label": "Audios Volume 2",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 2"
+  },
+  "command-3": {
+    "type": "text-input",
+    "label": "Command 3",
+    "group": "Command 3"
+  },
+  "onlyMod-3": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 3"
+  },
+  "onlySub-3": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 3"
+  },
+  "onlyVip-3": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 3"
+  },
+  "sound-3": {
+    "type": "sound-input",
+    "label": "Sound3",
+    "group": "Command 3"
+  },
+  "volume3": {
+    "type": "slider",
+    "label": "Audios Volume 3",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 3"
+  },
+  "command-4": {
+    "type": "text-input",
+    "label": "Command 4",
+    "group": "Command 4"
+  },
+  "onlyMod-4": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 4"
+  },
+  "onlySub-4": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 4"
+  },
+  "onlyVip-4": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 4"
+  },
+  "sound-4": {
+    "type": "sound-input",
+    "label": "Sound4",
+    "group": "Command 4"
+  },
+  "volume4": {
+    "type": "slider",
+    "label": "Audios Volume 4",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 4"
+  },
+  "command-5": {
+    "type": "text-input",
+    "label": "Command 5",
+    "group": "Command 5"
+  },
+  "onlyMod-5": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 5"
+  },
+  "onlySub-5": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 5"
+  },
+  "onlyVip-5": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 5"
+  },
+  "sound-5": {
+    "type": "sound-input",
+    "label": "Sound5",
+    "group": "Command 5"
+  },
+  "volume5": {
+    "type": "slider",
+    "label": "Audios Volume 5",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 5"
+  },
+  "command-6": {
+    "type": "text-input",
+    "label": "Command 6",
+    "group": "Command 6"
+  },
+  "onlyMod-6": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 6"
+  },
+  "onlySub-6": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 6"
+  },
+  "onlyVip-6": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 6"
+  },
+  "sound-6": {
+    "type": "sound-input",
+    "label": "Sound6",
+    "group": "Command 6"
+  },
+  "volume6": {
+    "type": "slider",
+    "label": "Audios Volume 6",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 6"
+  },
+  "command-7": {
+    "type": "text-input",
+    "label": "Command 7",
+    "group": "Command 7"
+  },
+  "onlyMod-7": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 7"
+  },
+  "onlySub-7": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 7"
+  },
+  "onlyVip-7": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 7"
+  },
+  "sound-7": {
+    "type": "sound-input",
+    "label": "Sound7",
+    "group": "Command 7"
+  },
+  "volume7": {
+    "type": "slider",
+    "label": "Audios Volume 7",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 7"
+  },
+  "command-8": {
+    "type": "text-input",
+    "label": "Command 8",
+    "group": "Command 8"
+  },
+  "onlyMod-8": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 8"
+  },
+  "onlySub-8": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 8"
+  },
+  "onlyVip-8": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 8"
+  },
+  "sound-8": {
+    "type": "sound-input",
+    "label": "Sound8",
+    "group": "Command 8"
+  },
+  "volume8": {
+    "type": "slider",
+    "label": "Audios Volume 8",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 8"
+  },
+  "command-9": {
+    "type": "text-input",
+    "label": "Command 9",
+    "group": "Command 9"
+  },
+  "onlyMod-9": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 9"
+  },
+  "onlySub-9": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 9"
+  },
+  "onlyVip-9": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 9"
+  },
+  "sound-9": {
+    "type": "sound-input",
+    "label": "Sound9",
+    "group": "Command 9"
+  },
+  "volume9": {
+    "type": "slider",
+    "label": "Audios Volume 9",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 9"
+  },
+  "command-10": {
+    "type": "text-input",
+    "label": "Command 10",
+    "group": "Command 10"
+  },
+  "onlyMod-10": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 10"
+  },
+  "onlySub-10": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 10"
+  },
+  "onlyVip-10": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 10"
+  },
+  "sound-10": {
+    "type": "sound-input",
+    "label": "Sound10",
+    "group": "Command 10"
+  },
+  "volume10": {
+    "type": "slider",
+    "label": "Audios Volume 10",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 10"
+  },
+  "command-11": {
+    "type": "text-input",
+    "label": "Command 11",
+    "group": "Command 11"
+  },
+  "onlyMod-11": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 11"
+  },
+  "onlySub-11": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 11"
+  },
+  "onlyVip-11": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 11"
+  },
+  "sound-11": {
+    "type": "sound-input",
+    "label": "Sound11",
+    "group": "Command 11"
+  },
+  "volume11": {
+    "type": "slider",
+    "label": "Audios Volume 11",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 11"
+  },
+   "command-12": {
+    "type": "text-input",
+    "label": "Command 12",
+    "group": "Command 12"
+  },
+  "onlyMod-12": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 12"
+  },
+  "onlySub-12": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 12"
+  },
+  "onlyVip-12": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 12"
+  },
+  "sound-12": {
+    "type": "sound-input",
+    "label": "Sound12",
+    "group": "Command 12"
+  },
+  "volume12": {
+    "type": "slider",
+    "label": "Audios Volume 12",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 12"
+  },
+   "command-13": {
+    "type": "text-input",
+    "label": "Command 13",
+    "group": "Command 13"
+  },
+  "onlyMod-13": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 13"
+  },
+  "onlySub-13": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 13"
+  },
+  "onlyVip-13": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 13"
+  },
+  "sound-13": {
+    "type": "sound-input",
+    "label": "Sound13",
+    "group": "Command 13"
+  },
+  "volume13": {
+    "type": "slider",
+    "label": "Audios Volume 13",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 13"
+  },
+   "command-14": {
+    "type": "text-input",
+    "label": "Command 14",
+    "group": "Command 14"
+  },
+  "onlyMod-14": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 14"
+  },
+  "onlySub-14": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 14"
+  },
+  "onlyVip-14": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 14"
+  },
+  "sound-14": {
+    "type": "sound-input",
+    "label": "Sound14",
+    "group": "Command 14"
+  },
+  "volume14": {
+    "type": "slider",
+    "label": "Audios Volume 14",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 14"
+  },
+  "command-15": {
+    "type": "text-input",
+    "label": "Command 15",
+    "group": "Command 15"
+  },
+  "onlyMod-15": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 15"
+  },
+  "onlySub-15": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 15"
+  },
+  "onlyVip-15": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 15"
+  },
+  "sound-15": {
+    "type": "sound-input",
+    "label": "Sound15",
+    "group": "Command 15"
+  },
+  "volume15": {
+    "type": "slider",
+    "label": "Audios Volume 15",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 15"
+  },
+  "command-16": {
+    "type": "text-input",
+    "label": "Command 16",
+    "group": "Command 16"
+  },
+  "onlyMod-16": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 16"
+  },
+  "onlySub-16": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 16"
+  },
+  "onlyVip-16": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 16"
+  },
+  "sound-16": {
+    "type": "sound-input",
+    "label": "Sound16",
+    "group": "Command 16"
+  },
+  "volume16": {
+    "type": "slider",
+    "label": "Audios Volume 16",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 16"
+  },
+  "command-17": {
+    "type": "text-input",
+    "label": "Command 17",
+    "group": "Command 17"
+  },
+  "onlyMod-17": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 17"
+  },
+  "onlySub-17": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 17"
+  },
+  "onlyVip-17": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 17"
+  },
+  "sound-17": {
+    "type": "sound-input",
+    "label": "Sound17",
+    "group": "Command 17"
+  },
+  "volume17": {
+    "type": "slider",
+    "label": "Audios Volume 17",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 17"
+  },
+  "command-18": {
+    "type": "text-input",
+    "label": "Command 18",
+    "group": "Command 18"
+  },
+  "onlyMod-18": {
+    "type": "checkbox",
+    "label": "Mod only?",
+    "group": "Command 18"
+  },
+  "onlySub-18": {
+    "type": "checkbox",
+    "label": "Sub only?",
+    "group": "Command 18"
+  },
+  "onlyVip-18": {
+    "type": "checkbox",
+    "label": "Vip only?",
+    "group": "Command 18"
+  },
+  "sound-18": {
+    "type": "sound-input",
+    "label": "Sound18",
+    "group": "Command 18"
+  },
+  "volume18": {
+    "type": "slider",
+    "label": "Audios Volume 18",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.1,
+    "group": "Command 18"
+  }
+}
