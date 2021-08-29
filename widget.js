@@ -6,10 +6,11 @@ const role = {
   moderator: "moderator",
   vip: "vip",
   subscriber: "subscriber",
-  premium: "premium",
+  founder: "founder",
 };
 
 const getCanPlay = (onlyMod, onlySub, onlyVip, roles) => {
+  console.log(onlyMod, onlySub, onlyVip, roles);
   switch (true) {
     case roles.indexOf(role.broadcaster) !== -1:
       return true;
@@ -17,8 +18,9 @@ const getCanPlay = (onlyMod, onlySub, onlyVip, roles) => {
       return true;
     case onlyVip && roles.indexOf(role.vip) !== -1:
       return true;
-    case (onlySub && roles.indexOf(role.subscriber) !== -1) ||
-      roles.indexOf(role.premium) !== -1:
+    case onlySub &&
+      (roles.indexOf(role.subscriber) !== -1 ||
+        roles.indexOf(role.founder) !== -1):
       return true;
     case !onlyMod && !onlySub && !onlyVip:
       return true;
@@ -59,9 +61,11 @@ window.addEventListener("onWidgetLoad", function (obj) {
       console.log("no command sound available");
       return;
     }
+    console.log(obj);
     const event = obj.detail.event;
     const listener = obj.detail.listener;
     const msg = event.data.text[0] === "!" && event.data.text.slice(1);
+
     const roles = event.data.tags.badges
       .split(",")
       .map((role) => role.split("/")[0]);
